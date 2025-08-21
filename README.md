@@ -4,7 +4,7 @@
 
 - 🎯 Interested in: full-stack web, automation, and data dashboards
 - 🧰 Tech: Python, Java, SQL, HTML/CSS, JavaScript, Git
-- 🌐 Portfolio: (coming soon)
+- 🌐 Portfolio: https://calchang1994-port.github.io/portfolio-website/
 - 💼 Resume: (link to PDF)
 - 📫 Contact: calvin.chang.94@gmail.com | Cupertino, CA
 - 🤝 Open to collaboration on beginner-friendly projects
