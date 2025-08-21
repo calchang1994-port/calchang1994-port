@@ -31,4 +31,7 @@ A polished to-do list web app with **Dark/Light mode**, **CRUD functionality**, 
 
 ---
 
-⭐️ *Always learning, building, and open to opportunities in software development!*
+## 🌐 Portfolio Website
+Check out my personal portfolio for project showcases and live demos:  
+👉 [https://calchang1994-port.github.io/portfolio-website/](https://calchang1994-port.github.io/portfolio-website/)
+
