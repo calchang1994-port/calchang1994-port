@@ -12,8 +12,8 @@ This README highlights two apps you can try right away:
 ## 🔗 Quick Links
 - **Task Manager (Frontend):** https://task-manager-calchang1994.netlify.app  
 - **Task Manager API Base:** https://task-manager-api-g0uk.onrender.com  
-- **To‑Do List Demo:** *(add link when deployed)*  
-- **Portfolio Site:** *(add link)*
+- **To‑Do List Demo:** https://calchang1994-port.github.io/todo-app/
+- **Portfolio Site:** https://calchang1994.github.io/
 
 ---
 
