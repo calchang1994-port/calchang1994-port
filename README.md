@@ -17,7 +17,61 @@ This README highlights two apps you can try right away:
 
 ---
 
-## 🚀 Project 1 — Task Manager (MERN)
+
+
+## ✅ Project 1 — To‑Do List (React Only)
+
+<img src="./architecture-todo.png" alt="To-Do List Architecture" width="820"/>
+
+**Stack:** React + Vite (client‑side only) • localStorage persistence
+
+### Features
+- Add / edit / delete simple tasks
+- Mark complete / incomplete
+- **Filters:** All • Active • Completed
+- **Dark/Light mode** toggle (persisted in localStorage)
+- No backend required; everything runs in the browser
+
+### Live Demo & Repo
+- **Demo:** *(add Netlify or GitHub Pages link)*  
+- **Repo:** *(add repo link)*
+
+### Local Dev
+```bash
+# To‑Do (client only)
+cd todo-react
+npm install
+npm run dev
+```
+
+### State Shape (example)
+```js
+// localStorage key: "todo-items"
+[
+  { "id": "a1", "title": "Buy milk", "completed": false },
+  { "id": "a2", "title": "Ship package", "completed": true }
+]
+```
+
+> **Nice extras to add**: keyboard shortcuts (Enter to add, Esc to cancel), drag‑and‑drop ordering, toast notifications.
+
+---
+
+## 📁 Suggested Repo Layout (mono‑repo example)
+```
+/                     # main repo root
+├─ README.md          # this file
+├─ architecture.png   # used by Task Manager section
+├─ apps/
+│  ├─ task-manager/   # MERN app (frontend + backend subfolders)
+│  └─ todo-react/     # lightweight React-only To‑Do
+└─ docs/
+   └─ task-manager-readme.pdf
+```
+
+---
+
+## 🚀 Project 2 — Task Manager (MERN)
 
 <img src="./architecture.png" alt="MERN Task Manager Architecture" width="820"/>
 
@@ -81,56 +135,6 @@ CORS_ORIGIN=http://localhost:5173
 > - **500**: verify `MONGO_URI` and DB user permissions  
 > - **CORS**: set `CORS_ORIGIN` to your Netlify URL  
 > - **Bad hostname**: always include full `https://`
-
----
-
-## ✅ Project 2 — To‑Do List (React Only)
-
-**Stack:** React + Vite (client‑side only) • localStorage persistence
-
-### Features
-- Add / edit / delete simple tasks
-- Mark complete / incomplete
-- **Filters:** All • Active • Completed
-- **Dark/Light mode** toggle (persisted in localStorage)
-- No backend required; everything runs in the browser
-
-### Live Demo & Repo
-- **Demo:** *(add Netlify or GitHub Pages link)*  
-- **Repo:** *(add repo link)*
-
-### Local Dev
-```bash
-# To‑Do (client only)
-cd todo-react
-npm install
-npm run dev
-```
-
-### State Shape (example)
-```js
-// localStorage key: "todo-items"
-[
-  { "id": "a1", "title": "Buy milk", "completed": false },
-  { "id": "a2", "title": "Ship package", "completed": true }
-]
-```
-
-> **Nice extras to add**: keyboard shortcuts (Enter to add, Esc to cancel), drag‑and‑drop ordering, toast notifications.
-
----
-
-## 📁 Suggested Repo Layout (mono‑repo example)
-```
-/                     # main repo root
-├─ README.md          # this file
-├─ architecture.png   # used by Task Manager section
-├─ apps/
-│  ├─ task-manager/   # MERN app (frontend + backend subfolders)
-│  └─ todo-react/     # lightweight React-only To‑Do
-└─ docs/
-   └─ task-manager-readme.pdf
-```
 
 ---
 
