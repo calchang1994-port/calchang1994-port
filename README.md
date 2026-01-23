@@ -134,7 +134,7 @@ CORS_ORIGIN=http://localhost:5173
 > - **401**: send `Authorization: Bearer <token>`  
 > - **500**: verify `MONGO_URI` and DB user permissions  
 > - **CORS**: set `CORS_ORIGIN` to your Netlify URL  
-> - **Bad hostname**: always include full `https://`
+> - **Bad hostname**: always include full `https:a//`
 
 ---
 
